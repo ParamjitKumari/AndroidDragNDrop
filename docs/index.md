@@ -5,5 +5,5 @@ Text drag and drop using Xamarin.Android
 Xamarin.Android project to implement text drag and drop.
 
 # Output
-[](https://www.certexams.com/dragndrop.gif)
+[](https://paramjitkumari.github.io/AndroidDragNDrop/dragndrop.gif)
 
