@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+  <integer name="txtsize">16</integer>
+  <integer name="boxwidth">150</integer>
+  <integer name="boxheight">150</integer>
+</resources>

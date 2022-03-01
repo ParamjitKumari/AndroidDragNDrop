@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="0dp"
+      android:id="@+id/scroll1">
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main">	
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_span="2"
+            android:id="@+id/Lmain2">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:stretchColumns="*"
+                android:id="@+id/table1">
+                <TableRow
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/tableRow4">
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_span="2"
+                        android:id="@+id/txtQuesID" 
+                        android:text="Question ID : 1"/>
+                </TableRow>
+                <TableRow
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/tableRow4">
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_span="2"
+                        android:id="@+id/txtQues" 
+                        android:text="Drag the correct option from left to right."/>
+                </TableRow>
+                <TableRow
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/tableRow5">
+                    <TableLayout
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_column="0"
+                        android:layout_span="2"
+                        android:id="@+id/tableQues">
+                        <TableRow
+                            android:id="@+id/tableRow6">
+                            <TextView
+                                android:minWidth="30px"
+                                android:minHeight="30px"
+                                android:id="@+id/textView7" />
+                            <TextView
+                                android:minWidth="30px"
+                                android:minHeight="30px"
+                                android:id="@+id/textView8" />                           
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+                <TableRow
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/tableRow55">
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_span="2"
+                        android:id="@+id/txtInfo"
+                        android:text="Correct Answers are displayed on left"
+                        android:textSize="13sp"
+                        android:textStyle="italic"
+                        android:gravity="center"
+                        android:visibility="invisible" />
+                </TableRow>
+                <TableRow
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/tableRow15">
+                    <TableLayout
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_column="0"
+                        android:layout_span="2"
+                        android:id="@+id/tableQues1">
+                        <TableRow
+                            android:id="@+id/tableRow16">
+                            <TextView
+                                android:minWidth="30px"
+                                android:minHeight="30px"
+                                android:id="@+id/textView10" />
+                            <TextView
+                                android:minWidth="30px"
+                                android:minHeight="30px"
+                                android:id="@+id/textView11" />                            
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_gravity="bottom" >                          
+                    <Button
+                        android:text="@string/showbutton"
+                        android:layout_column="0"                      
+                        android:textAllCaps="false"       
+                        android:layout_marginRight="30sp"
+                        android:id="@+id/Show"
+                         android:layout_width="@dimen/abc_text_size_display_3_material"
+                       
+                        android:textSize="@dimen/abc_text_size_body_1_material"
+                        />
+                      <Button
+                        android:text="@string/resetbutton"
+                        android:layout_column="1"
+                        android:textAllCaps="false"
+                        android:id="@+id/Reset"
+                        android:layout_width="@dimen/abc_text_size_display_3_material"
+                        android:textSize="@dimen/abc_text_size_body_1_material"
+                       />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    
+
+</LinearLayout>
+	</ScrollView>

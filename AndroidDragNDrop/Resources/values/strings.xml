@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidDragNDrop</string>
+    <string name="action_settings">Settings</string>
+    <string name="showbutton">Show Ans</string>
+    <string name="resetbutton">Reset</string>
+    <string name="closebutton">Save &amp; Close</string>
+</resources>
